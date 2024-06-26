@@ -1,82 +1,95 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Personal Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #C3B1E1;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        nav {
+            background-color: #444;
+            padding: 10px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        main {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        /* Added styles for the contents bar */
+        .contents-bar {
+            background-color: #444;
+            width: 100%;
+            z-index: 1000; /* Ensure contents bar is above other content */
+        }
+        .contents-bar a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+            display: inline-block;
+        }
+        .contents-bar a:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header with contents bar -->
+    <header>
+        <h1 align="left">Alyssa Anastasi</h1>
+        <p align="left">Computer Science & Statistics @ UIUC</p>
+        <div class="contents-bar">
+            <nav>
+                <a href="#about">About</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
 
-        <!--=============== FAVICON ===============-->
-        <link rel="shortcut icon" href="" type="image/x-icon">
+    <!-- Main content -->
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Write a brief introduction about yourself here.</p>
+        </section>
+        <section id="portfolio">
+            <h2>Portfolio</h2>
+            <p>Display your projects, work samples, or achievements here.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>You can reach me at: your-email@example.com</p>
+        </section>
+    </main>
 
-        <!--=============== BOXICONS ===============-->
-        
-
-        <!--=============== SWIPER CSS ===============-->
-        <link rel="stylesheet" href="">
-
-        <!--=============== CSS ===============-->
-        <link rel="stylesheet" href="">
-
-        <title> Responsive portfolio website Ansel </title>
-    </head>
-    <body>
-        <!--=============== HEADER ===============-->
-        <header class="header" id="header">
-            
-        </header>
-
-        <!--=============== MAIN ===============-->
-        <main class="main">
-            <!--=============== HOME ===============-->
-            <section class="home section" id="home">
-                
-            </section>
-            
-            <!--=============== ABOUT ===============-->
-            <section class="about section" id="about">
-                
-            </section>
-
-            <!--=============== SKILLS ===============-->
-            <section class="skills section" id="skills">
-                
-            </section>
-
-            <!--=============== SERVICES ===============-->
-            <section class="services section">
-                
-            </section>
-
-            <!--=============== WORK ===============-->
-            <section class="work section" id="work">
-                
-            </section>
-
-            <!--=============== TESTIMONIALS ===============-->
-            <section class="testimonial section">
-                
-            </section>
-
-            <!--=============== CONTACT ===============-->
-            <section class="contact section" id="contact">
-                
-            </section>
-        </main>
-
-        <!--=============== FOOTER ===============-->
-        <footer class="footer">
-            
-        </footer>
-
-        <!--=============== SCROLLREVEAL ===============-->
-        <script src=""></script>
-
-        <!--=============== SWIPER JS ===============-->
-        <script src=""></script>
-
-        <!--=============== MIXITUP FILTER ===============-->
-        <script src=""></script>
-
-        <!--=============== MAIN JS ===============-->
-        <script src=""></script>
-    </body>
+    <!-- Footer -->
+    <footer>
+        &copy; 2024 Your Name - All rights reserved
+    </footer>
+</body>
 </html>
