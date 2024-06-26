@@ -3,93 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Personal Website</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #C3B1E1;
-            color: #fff;
-            text-align: center;
-            padding: 20px;
-        }
-        nav {
-            background-color: #444;
-            padding: 10px;
-        }
-        nav a {
-            color: #fff;
-            text-decoration: none;
-            padding: 10px;
-        }
-        nav a:hover {
-            background-color: #555;
-        }
-        main {
-            padding: 20px;
-        }
-        footer {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 10px;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-        /* Added styles for the contents bar */
-        .contents-bar {
-            background-color: #444;
-            width: 100%;
-            z-index: 1000; /* Ensure contents bar is above other content */
-        }
-        .contents-bar a {
-            color: #fff;
-            text-decoration: none;
-            padding: 10px;
-            display: inline-block;
-        }
-        .contents-bar a:hover {
-            background-color: #555;
-        }
-    </style>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Header with contents bar -->
     <header>
-        <h1 align="left">Alyssa Anastasi</h1>
-        <p align="left">Computer Science & Statistics @ UIUC</p>
-        <div class="contents-bar">
+        <div class="container">
+            <h1>My Portfolio</h1>
             <nav>
-                <a href="#about">About</a>
-                <a href="#portfolio">Portfolio</a>
-                <a href="#contact">Contact</a>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
             </nav>
         </div>
     </header>
-
-    <!-- Main content -->
-    <main>
-        <section id="about">
-            <h2>About Me</h2>
-            <p>Write a brief introduction about yourself here.</p>
-        </section>
-        <section id="portfolio">
-            <h2>Portfolio</h2>
-            <p>Display your projects, work samples, or achievements here.</p>
-        </section>
-        <section id="contact">
-            <h2>Contact Me</h2>
-            <p>You can reach me at: your-email@example.com</p>
-        </section>
-    </main>
-
-    <!-- Footer -->
+    
+    <section id="about" class="container">
+        <h2>About Me</h2>
+        <p>Hello! I'm a web developer with a passion for creating beautiful and functional websites. I have experience with HTML, CSS, JavaScript, and more.</p>
+    </section>
+    
+    <section id="projects" class="container">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1</h3>
+            <p>A description of my first project.</p>
+        </div>
+        <div class="project">
+            <h3>Project 2</h3>
+            <p>A description of my second project.</p>
+        </div>
+        <div class="project">
+            <h3>Project 3</h3>
+            <p>A description of my third project.</p>
+        </div>
+    </section>
+    
+    <section id="contact" class="container">
+        <h2>Contact</h2>
+        <p>If you'd like to get in touch, please reach out via email or follow me on social media.</p>
+    </section>
+    
     <footer>
-        &copy; 2024 Your Name - All rights reserved
+        <div class="container">
+            <p>&copy; 2024 My Portfolio</p>
+        </div>
     </footer>
 </body>
 </html>
