@@ -1,21 +1,136 @@
+/* Home.css */
 .home {
-    background-color: #ffffff
+  display: flex;            /* Makes the container a flexbox */
+  flex-direction: column;   /* Centers elements vertically */
+  align-items: center;      /* Centers elements horizontally */
+  justify-content: flex-start;  /* Centers elements vertically within the container */
+  height: 100vh;            /* Sets the height to fill the viewport */
+  text-align: center;       /* Center-aligns text */
+  background-color: #f8f3f1; /* Light background for contrast */
+  color: #555; /* Slightly darker text for readability */
 }
 
-  .home h1 {
-    color: #2a2b2a;
-    font-size: 4rem;
-    margin-bottom: 0px;
-  }
+/* Flex container to hold the profile picture and text */
+.home-content {
+  display: flex;
+  flex-direction: column; /* Stack image and text vertically */
+  align-items: center;    /* Center align content horizontally */
+}
 
-  .home h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
+/* Profile Picture Styling */
+.profile-pic {
+  width: 250px; /* Adjust size as needed */
+  height: 250px; /* Adjust size as needed */
+  border-radius: 50%; /* Makes the image circular */
+  object-fit: cover;
+  margin-bottom: 20px; /* Adds space between the image and the text */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Adds a subtle shadow */
+  animation: bounce 1s ease-out;
+  transition: transform 0.3s;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(-200px); /* Start above its final position */
+    opacity: 0%;/* Make the picture invisible at the start */
   }
-  
-  .home p {
-    font-size: 1.5rem;
-    line-height: 1.6;
-    color: #2a2b2a;
+  40% {
+    transform: translateY(30px); /* Slightly overshoot */
+    opacity: 1; /* Fade in during the animation */
   }
-  
+  60% {
+    transform: translateY(-20px); /* Bounce upwards */
+  }
+  80% {
+    transform: translateY(5px); /* Bounce downwards slightly */
+  }
+  100% {
+    transform: translateY(0); /* Settle into final position */
+  }
+}
+
+@keyframes bounce2 {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.profile-pic:hover {
+  animation: bounce2 0.5s; /* Bounce once on hover */
+}
+
+.home-text h1 {
+  font-size: 2.5em;
+  letter-spacing: 1px;
+  color: #333; /* A darker color for contrast */
+  margin-bottom: -18px;
+  margin-top: -35px;
+}
+
+.home-text h2 {
+  font-size: 1.5em;
+  font-weight: 400;
+  color: #666; /* Use a lighter color for subheadings */
+  margin-bottom: 20px;
+}
+
+.home p {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-top: 0px;
+  font-size: 1.3rem;
+  line-height: 1.6;
+  text-align: left; /* Center-align the text for a cleaner look */
+  max-width: 700px; /* Limit the width to avoid very long lines */
+  margin: 0 auto; /* Center the text block */
+}
+
+.home-text ul {
+  padding-top: 5px;
+  padding-left: 90px;
+  text-align: left; /* Center-align the text and bullets */
+  font-size: 1rem;
+  line-height: 1em;
+}
+
+.home-text i {
+  color:#4A4E69;
+  font-weight: 500;
+}
+
+.home-text ul li {
+  color: #666;
+  margin-bottom: 5px; /* Space between items */
+  padding-left: 0px; /* Adjust space for custom bullet */
+  text-align: left; /* Center-align the list items */
+  font-size: 1.2rem;
+  line-height: 1em;
+}
+
+.home-text ul li::before {
+  color: #C9ADA7; /* Accent color */
+  /* position: absolute; */
+  left: 0px; /* Adjust if needed */
+  font-size: 1.2em;
+  top: 50%; /* Center vertically in relation to the text */
+  transform: translateY(-50%); /* Adjust vertical centering */
+  line-height: 1em;
+}
+
+.home-text {
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
