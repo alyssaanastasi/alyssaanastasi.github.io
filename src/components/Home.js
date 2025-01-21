@@ -19,9 +19,9 @@ function Home() {
             <li><i>research assistant</i> in the martinez lab</li>
             <li><i>data analyst</i> for illini women's basketball</li>
             </ul>
-        <li>reading: <i><a href="https://www.goodreads.com/book/show/68428.The_Final_Empire">the final empire by brandon sanderson</a></i> </li>
-        <li>listening to: <i><a href="https://open.spotify.com/artist/066X20Nz7iquqkkCW6Jxy6">lcd soundsystem</a></i> </li>
-        <li>obsessed with: <i>watching illinois football</i> </li>
+        <li>reading: <i><a href="https://www.goodreads.com/book/show/34051011-pachinko">pachinko by min jin lee</a></i> </li>
+        <li>listening to: <i><a href="https://open.spotify.com/track/1qfJ6OvxrspQTmcvdIEoX6?si=3f8b772f61404ac6">places to be by fred again...</a></i> </li>
+        <li>obsessed with: <i>star wars</i> </li>
       </ul>
       </div>
     </div>
