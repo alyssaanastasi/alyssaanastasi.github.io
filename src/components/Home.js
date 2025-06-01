@@ -1,6 +1,7 @@
 import React from 'react';
 import './Home.css'; // Add a CSS file if needed
 import profilePic from './assets/profpic.jpg';
+import sropPoster from './assets/sropposter.pdf'; 
 
 function Home() {
   return (
@@ -9,19 +10,23 @@ function Home() {
         <img src={profilePic} alt="Profile" className="profile-pic" />
         <div className="home-text">
       <h1>alyssa anastasi</h1>
-      <h2>senior in computer science + statistics with a minor in public health at uiuc</h2>
+      <h2>master's in biomedical data science at uw-madison</h2>
       <p>she is currently:</p>
       <ul>
-        <li>located in: <i>champaign, il</i> </li>
+        <li>located in: chicago, il</li>
         <li>working as a:</li>
             <ul>
-            <li><i>course assistant</i> for stat 107</li>
-            <li><i>research assistant</i> in the martinez lab</li>
-            <li><i>data analyst</i> for illini women's basketball</li>
+            <li>instructor at <i><a href="https://dpi.uillinois.edu/tech-talent-development/high-school-and-community-college-student-programs/digital-scholars/">discovery partners institute</a></i></li>
+            <li>research assistant in pamela martinez's lab</li>
             </ul>
-        <li>reading: <i><a href="https://www.goodreads.com/book/show/34051011-pachinko">pachinko by min jin lee</a></i> </li>
-        <li>listening to: <i><a href="https://open.spotify.com/track/1qfJ6OvxrspQTmcvdIEoX6?si=3f8b772f61404ac6">places to be by fred again...</a></i> </li>
-        <li>obsessed with: <i>star wars</i> </li>
+        <li>reading: <i><a href="https://www.goodreads.com/book/show/1885.Pride_and_Prejudice">pride and prejudice by jane austen</a></i> </li>
+        <li>listening to: <i><a href="https://open.spotify.com/track/2KufM8PiQY4i52XhRL96Fd?si=a26f7a516511400c">champagne coast by blood orange</a></i> </li>
+        <li>obsessed with: <i><a href="https://strava.app.link/cR1DpRqHQTb">running</a></i> </li>
+      </ul>
+      <p>previously:</p>
+      <ul>
+        <li><i><a href={sropPoster} target="_blank" rel="noopener noreferrer">assessing explanations of graph neural networks for predicting effects of gene perturbations</a></i></li>
+        <li>disentangling the impact of environmental drivers on rotavirus transmission in bangladesh</li>
       </ul>
       </div>
     </div>

@@ -1,65 +1,29 @@
 /* Home.css */
 .home {
-  display: flex;            /* Makes the container a flexbox */
-  flex-direction: column;   /* Centers elements vertically */
-  align-items: center;      /* Centers elements horizontally */
-  justify-content: flex-start;  /* Centers elements vertically within the container */
-  height: 100vh;            /* Sets the height to fill the viewport */
-  text-align: center;       /* Center-aligns text */
-  background-color: #f8f3f1; /* Light background for contrast */
-  color: #555; /* Slightly darker text for readability */
+  display: flex;            
+  align-items: center;      
+  justify-content: center;  
+  height: 100vh;            
+  text-align: center;       
+  background-color: #f8f3f1; 
+  color: #555; 
 }
 
-/* Flex container to hold the profile picture and text */
 .home-content {
   display: flex;
-  flex-direction: column; /* Stack image and text vertically */
-  align-items: center;    /* Center align content horizontally */
+  flex-direction: column; 
+  align-items: center;    
 }
 
-/* Profile Picture Styling */
 .profile-pic {
-  width: 250px; /* Adjust size as needed */
-  height: 250px; /* Adjust size as needed */
-  border-radius: 50%; /* Makes the image circular */
+  width: 250px; 
+  height: 250px; 
+  border-radius: 50%; 
   object-fit: cover;
-  margin-bottom: 20px; /* Adds space between the image and the text */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Adds a subtle shadow */
+  margin-bottom: 20px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
   animation: bounce 1s ease-out;
   transition: transform 0.3s;
-}
-
-@keyframes bounce {
-  0% {
-    transform: translateY(-200px); /* Start above its final position */
-    opacity: 0%;/* Make the picture invisible at the start */
-  }
-  40% {
-    transform: translateY(30px); /* Slightly overshoot */
-    opacity: 1; /* Fade in during the animation */
-  }
-  60% {
-    transform: translateY(-20px); /* Bounce upwards */
-  }
-  80% {
-    transform: translateY(5px); /* Bounce downwards slightly */
-  }
-  100% {
-    transform: translateY(0); /* Settle into final position */
-  }
-}
-
-@keyframes bounce2 {
-  0%, 100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-10px);
-  }
-}
-
-.profile-pic:hover {
-  animation: bounce2 0.5s; /* Bounce once on hover */
 }
 
 .home-text h1 {
@@ -90,7 +54,15 @@
 
 .home-text ul {
   padding-top: 5px;
-  padding-left: 90px;
+  padding-left: 150px;
+  text-align: left; /* Center-align the text and bullets */
+  font-size: 1rem;
+  line-height: 1em;
+}
+
+.home-text ul ul {
+  padding-top: 5px;
+  padding-left: 30px;
   text-align: left; /* Center-align the text and bullets */
   font-size: 1rem;
   line-height: 1em;
@@ -103,20 +75,11 @@
 
 .home-text ul li {
   color: #666;
+  padding-left: 170px;
   margin-bottom: 5px; /* Space between items */
   padding-left: 0px; /* Adjust space for custom bullet */
   text-align: left; /* Center-align the list items */
   font-size: 1.2rem;
-  line-height: 1em;
-}
-
-.home-text ul li::before {
-  color: #C9ADA7; /* Accent color */
-  /* position: absolute; */
-  left: 0px; /* Adjust if needed */
-  font-size: 1.2em;
-  top: 50%; /* Center vertically in relation to the text */
-  transform: translateY(-50%); /* Adjust vertical centering */
   line-height: 1em;
 }
 
