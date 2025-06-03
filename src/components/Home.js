@@ -10,7 +10,7 @@ function Home() {
         <img src={profilePic} alt="Profile" className="profile-pic" />
         <div className="home-text">
       <h1>alyssa anastasi</h1>
-      <h2>master's in biomedical data science @ uw-madison</h2>
+      <h2>master's in biomedical data science at uw-madison</h2>
       <p>she is currently:</p>
       <ul>
         <li>located in: chicago, il</li>
