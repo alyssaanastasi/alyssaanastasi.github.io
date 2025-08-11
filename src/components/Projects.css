@@ -1,11 +1,12 @@
 .projects {
   display: flex;            
-  align-items: left;      
-  justify-content: left;  
+  align-items: flex-start;      
+  justify-content: flex-start;  
   height: 100vh;            
   text-align: left;       
   background-color: #f8f3f1; 
   color: #555; 
+  padding: 20px;
 }
 
 .projects-text h1 {
@@ -51,4 +52,39 @@
 .projects-text a:hover {
     color: #E3879E;
     text-decoration: underline;
+}
+
+
+/* Mobile */
+@media (max-width: 768px) {
+  .projects {
+    height: auto; /* allow content to define height */
+    padding: 20px 10px;
+    flex-direction: column; /* stack content vertically */
+  }
+
+  .projects-text h1 {
+    font-size: 1.8em;
+    margin-left: 10px;
+    margin-top: 20px;
+  }
+
+  .projects-text p {
+    font-size: 1rem;
+    max-width: 100%;
+    margin-left: 10px;
+    margin-top: 0;
+  }
+
+  .projects-text h2 {
+    font-size: 1.2em;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+
+  .projects-text h3 {
+    font-size: 1rem;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
 }

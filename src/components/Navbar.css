@@ -57,4 +57,24 @@
   .navbar-links img:hover {
     transform: scale(1.1);
   }
+
+  /* Mobile */
+  @media (max-width: 768px) {
+  .navbar {
+    padding: 0.5rem 1rem;
+  }
+
+  .navbar-pages {
+    gap: 10px;
+    padding-left: 8px;
+  }
+
+  .navbar-page {
+    font-size: 1rem; /* smaller font */
+  }
+
+  .navbar-links img {
+    width: 20px; /* smaller icons */
+  }
+}
   

@@ -8,6 +8,7 @@
   background-color: #f8f3f1; 
   color: #555; 
   transform: translateY(-70px);
+  padding: 20px;
 }
 
 .home-content {
@@ -26,6 +27,8 @@
   animation: bounce 1s ease-out;
   transition: transform 0.3s;
   margin-top: -100px;
+  max-width: 80vw;
+  height: auto;
 }
 
 .home-text h1 {
@@ -110,5 +113,50 @@
   100% {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .home {
+    height: auto; 
+    padding: 40px 20px;
+    transform: translateY(0); 
+  }
+
+  .profile-pic {
+    width: 150px;
+    height: 150px;
+    margin-top: 0;
+  }
+
+  .home-text h1 {
+    font-size: 1.8em;
+    margin-top: 0;
+  }
+
+  .home-text h2 {
+    font-size: 1.2em;
+    line-height: 1;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .home-text h3 {
+    font-size: 1.2rem;
+    max-width: 100%;
+    padding: 0 10px;
+    text-align: left;
+  }
+
+  .home-text ul {
+    padding-left: 40px;
+    max-width: 100%;
+    font-size: 1.2rem;
+  }
+
+  .home-text ul li {
+    padding-left: 10px;
+    font-size: 1rem;
   }
 }
