@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 import linkedIn from './assets/linkedin.png';
@@ -13,8 +12,9 @@ function Navbar() {
   return (
     <nav className="navbar">
       <ul className="navbar-pages">
-      <li><Link to="/" className="navbar-page">home</Link></li>
-      <li><Link to="/projects" className="navbar-page">projects</Link></li>
+      <li><Link to="/" className="navbar-page">Home</Link></li>
+      <li><Link to="/projects" className="navbar-page">Projects</Link></li>
+      {/* <li><Link to="/about" className="navbar-page">about</Link></li> */}
       </ul>
       <div className="navbar-links">
         <a href={resume} target="_blank" rel="noopener noreferrer">

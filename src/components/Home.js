@@ -1,4 +1,3 @@
-import React from 'react';
 import './Home.css'; 
 import profilePic from './assets/profpic.jpg';
 
@@ -9,20 +8,16 @@ function Home() {
       <div className="home-content">
         <img src={profilePic} alt="Profile" className="profile-pic" />
         <div className="home-text">
-      <h1>alyssa anastasi</h1>
-      <h2>master's student in biomedical data science at uw-madison</h2>
-      <h2>bs statistics & computer science from uiuc</h2>
-      <p><b>currently:</b></p>
+      <h1>Alyssa Anastasi</h1>
+      <h2>Graduate student in Biomedical Data Science at UW-Madison</h2>
+      <h2>BS Statistics & Computer Science from UIUC</h2>
+      <h3><b>Currently:</b></h3>
       <ul>
-        <li>located in: chicago, il</li>
-        <li>working as a:</li>
-            <ul>
-            <li>data science discovery instructor at <i><a href="https://dpi.uillinois.edu/tech-talent-development/high-school-and-community-college-student-programs/digital-scholars/">discovery partners institute</a></i></li>
-            <li>research assistant in pamela martinez's lab</li>
-            </ul>
-        <li>reading: <i><a href="https://www.goodreads.com/book/show/41104077-invisible-women">invisible women: data bias in a world designed for men by caroline criado pérez</a></i> </li>
-        <li>listening to: <i><a href="https://open.spotify.com/track/2KufM8PiQY4i52XhRL96Fd?si=a26f7a516511400c">champagne coast by blood orange</a></i> </li>
-        <li>obsessed with: <i><a href="https://strava.app.link/cR1DpRqHQTb">running & biking</a></i> </li>
+        <li>Located in: <span className="bullet-text">Madison, WI</span></li>
+        <li>Working on: <span className="bullet-text">predicting which animal viruses are at high risk of spilling over into human populations in mark craven's lab</span></li>
+        <li>Reading: <a href="https://www.goodreads.com/book/show/218559595-great-big-beautiful-life">Great Big Beautiful Life by Emily Henry</a> </li>
+        <li>Listening to: <a href="https://open.spotify.com/track/4NczzeHBQPPDO0B9AAmB8d?si=99bfb5da6e1b4e2f">Assumptions by Sam Gellaitry</a> </li>
+        <li>Obsessed with: <a href="https://strava.app.link/cR1DpRqHQTb">running & biking</a> </li>
       </ul>
       </div>
     </div>

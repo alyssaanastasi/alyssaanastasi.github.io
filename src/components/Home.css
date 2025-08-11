@@ -7,6 +7,7 @@
   text-align: center;       
   background-color: #f8f3f1; 
   color: #555; 
+  transform: translateY(-70px);
 }
 
 .home-content {
@@ -29,64 +30,73 @@
 
 .home-text h1 {
   font-size: 2.5em;
-  letter-spacing: 1px;
-  color: #333; /* A darker color for contrast */
-  margin-bottom: -18px;
-  margin-top: -30px;
+  /* letter-spacing: 1px; */
+  color: #333; 
+  margin-bottom: -15px;
+  margin-top: -25px;
 }
 
 .home-text h2 {
   font-size: 1.5em;
   font-weight: 400;
-  color: #666; /* Use a lighter color for subheadings */
+  color: #666; 
   /* margin-bottom: 20px; */
-  margin-bottom: -18px; 
+  margin-bottom: -10px; 
 }
 
-.home p {
+.home-text h3 {
+  font-size: 1.5em;
+  font-weight: 400;
+  color: #333; 
   padding-top: 20px;
   padding-bottom: 0px;
   padding-left: 0px;
   margin-top: 0px;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   line-height: 1.6;
-  text-align: left; /* Center-align the text for a cleaner look */
-  max-width: 700px; /* Limit the width to avoid very long lines */
-  margin: 0 auto; /* Center the text block */
+  text-align: left; 
+  max-width: 700px; 
+  margin: 0 auto; 
 }
 
 .home-text ul {
   padding-top: 5px;
-  padding-left: 100px;
-  text-align: left; /* Center-align the text and bullets */
-  font-size: 1rem;
+  padding-left: 50px;
+  text-align: left; 
+  font-size: 1.5rem;
   line-height: 1em;
-  max-width: 800px; 
+  max-width: 700px; 
 }
 
-.home-text ul ul {
-  padding-top: 5px;
-  padding-left: 30px;
-  text-align: left; /* Center-align the text and bullets */
-  font-size: 1rem;
-  line-height: 1em;
-  max-width: 700px;
+.bullet-text {
+  color: #333;
 }
 
-.home-text i {
-  color:#4A4E69;
+/* .home-text i {
+  /*color:#4A4E69;
   font-weight: 500;
-}
+} */
 
 .home-text ul li {
   color: #666;
   padding-left: 170px;
-  margin-bottom: 5px; /* Space between items */
-  padding-left: 0px; /* Adjust space for custom bullet */
-  text-align: left; /* Center-align the list items */
-  font-size: 1.2rem;
-  line-height: 1em;
+  margin-bottom: 8px; 
+  padding-left: 0px; 
+  text-align: left; 
+  font-size: 1.3rem;
+  /* line-height: 1em; */
 }
+
+.home-text ul li a {
+  color: #333;
+  text-decoration: underline;
+}
+
+.home-text ul li a:hover {
+    color: #E3879E;
+    text-decoration: underline;
+}
+
 
 .home-text {
   animation: fadeIn 1.5s ease-in-out;
