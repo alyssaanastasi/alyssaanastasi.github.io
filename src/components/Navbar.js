@@ -20,9 +20,9 @@ function Navbar() {
         <a href={resume} target="_blank" rel="noopener noreferrer">
           <img src={resumeIcon} alt="Resume Icon"/>
         </a>
-        <a href={"mailto:aranastasi@wisc.edu"} target="_blank" rel="noopener noreferrer">
+        {/* <a href={"mailto:aranastasi@wisc.edu"} target="_blank" rel="noopener noreferrer">
           <img src={emailIcon} alt="Resume Icon"/>
-        </a>
+        </a> */}
         <a href="https://www.linkedin.com/in/alyssaranastasi" target="_blank" rel="noopener noreferrer">
           <img src={linkedIn} alt="LinkedIn Logo"/>
         </a>

@@ -19,6 +19,8 @@ function Home() {
         <li>Listening to <a href="https://open.spotify.com/track/4NczzeHBQPPDO0B9AAmB8d?si=99bfb5da6e1b4e2f">Assumptions by Sam Gellaitry</a> </li>
         <li>Obsessed with <a href="https://strava.app.link/cR1DpRqHQTb">running & biking</a> </li>
       </ul>
+      <br></br>
+      <h2> Contact Me @ <a href="mailto:aranastasi@wisc.edu">aranastasi@wisc.edu</a></h2>
       </div>
     </div>
     </section>

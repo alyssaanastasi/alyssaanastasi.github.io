@@ -62,6 +62,16 @@
   margin: 0 auto; 
 }
 
+.home-text h2 a {
+  color: #333;
+  text-decoration: underline;
+}
+
+.home-text h2 a:hover {
+    color: #E3879E;
+    text-decoration: underline;
+}
+
 .home-text ul {
   padding-top: 5px;
   padding-left: 50px;
