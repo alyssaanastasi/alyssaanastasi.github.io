@@ -15,13 +15,13 @@ function Projects() {
          model in R to simulate disease transmission dynamics across these three viruses simultaneously. By analyzing how different 
          vaccination coverages across age groups influence infection peaks and overall disease burden, this work provides insights 
          into targeted vaccine allocation in Illinois.</p>
-      <h2>Assessing explanations of graph neural networks for predicting effects of gene perturbations</h2>
+      <h2>Assessing Explanations of Graph Neural Networks</h2>
       <h3>UW-Madison &#x2022; PI: Mark Craven &#x2022; Summer 2024 &#x2022; <a href={gnnPoster} target="_blank">Poster</a></h3>
       <p>In this project, I worked with a graph neural network (GNN) that integrated diverse biological 
         to predict how gene perturbations affect gene expression, specifically in looking at the phenotype of cholesterol homeostasis. 
         To better understand the model’s decisions, I applied GNN explanation methods including GNNExplainer, PGExplainer, & Graph Mask
         using PyTorch Geometric to evaluate the model's reliability. </p>
-      <h2>Disentangling the impact of environmental drivers on Rotavirus transmission in Bangladesh</h2>
+      <h2>Impact of Environmental Drivers on Rotavirus Transmission in Bangladesh</h2>
       <h3>UIUC &#x2022; PI: Pamela Martinez &#x2022; Aug. 2023 - May 2024</h3>
       <p> The goal of this project is to understand how climate factors including flooding, temperature, & humidity can predict rotavirus
         incidence across the different districts of Bangladesh. I conducted extensive data cleaning and preprocessing of multiple data 
