@@ -20,7 +20,7 @@ function Home() {
         <li>Obsessed with <a href="https://strava.app.link/cR1DpRqHQTb">running & biking</a> </li>
       </ul>
       <br></br>
-      <h2> Contact Me @ <a href="mailto:aranastasi@wisc.edu">aranastasi@wisc.edu</a></h2>
+      <h2> Contact me @ <a href="mailto:aranastasi@wisc.edu">aranastasi@wisc.edu</a></h2>
       </div>
     </div>
     </section>
