@@ -5,7 +5,7 @@ function Projects() {
   return (
     <div className="projects-text">
       <h1>Projects</h1>
-      <h2>Assessing Risk of Zoonotic Virus Spillover into Human Populations</h2>
+      <h2>Identifying Risk of Zoonotic Virus Spillover into Human Populations</h2>
       <h3>UW-Madison &#x2022; PI: Mark Craven &#x2022; Sep. 2025 - Present </h3>
       <p>In this project, I assess and try to predict the risk of virus spillover into human populations using viral protein sequences. Currently, I am working on developing a 
         machine learning method (CNN, LSTM, Protein Language Model) to classify the host of Influenza A protein sequences. Previously, I have developed and deployed CNN models in TensorFlow 
