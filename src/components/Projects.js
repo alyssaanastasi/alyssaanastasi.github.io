@@ -7,29 +7,26 @@ function Projects() {
       <h1>Projects</h1>
       <h2>Identifying Risk of Zoonotic Virus Spillover into Human Populations</h2>
       <h3>UW-Madison &#x2022; PI: Mark Craven &#x2022; Sep. 2025 - Present </h3>
-      <p>In this project, I assess and try to predict the risk of virus spillover into human populations using viral protein sequences. Currently, I am working on developing a 
-        machine learning method (CNN, LSTM, Protein Language Model) to classify the host of Influenza A protein sequences. Previously, I have developed and deployed CNN models in TensorFlow 
-        and fine-tuned transformer protein language models to classify the host of Coronavirus spike protein sequences. For these methods, I have designed leave-one-out and large-scale 
-        evaluation frameworks to benchmark performance. </p>
+      <p> I develop machine learning models to predict zoonotic spillover risk using viral protein sequences. 
+          Current work explores CNNs, LSTMs, and protein language models for host classification for Influenza A protein sequences. 
+          Previously, I built and evaluated CNNs and fine-tuned transformer-based protein language models for host prediction of Coronavirus spike proteins, 
+          using large-scale and leave-one-out benchmarking frameworks. </p>
       <h2>Optimizing Vaccination Rates in a RSV, Influenza, and COVID “Tripledemic”</h2>
       <h3>UIUC &#x2022; PIs: Soren Larsen & Pamela Martinez &#x2022; Jan. 2025 - Present &#x2022; <a href="https://github.com/alyssaanastasi/shield" target="_blank">GitHub</a> </h3>
-      <p>The aim of this project is to characterize the optimal age-based distribution of vaccines for RSV, influenza, and
-         COVID-19 in a "tripledemic" season with finite healthcare resources. I developed an SIR (Susceptible-Infected-Recovered) 
-         model in R to simulate disease transmission dynamics across these three viruses simultaneously. By analyzing how different 
-         vaccination coverages across age groups influence infection peaks and overall disease burden, this work provides insights 
-         into targeted vaccine allocation in Illinois.</p>
+      <p>This project models optimal age-based vaccine allocation during a “tripledemic” under finite 
+          healthcare resources. I developed an age-structured SIR model in R to simulate simultaneous 
+          transmission of RSV, influenza, and COVID-19, and analyzed how vaccination coverage impacts 
+          infection peaks and disease burden in Illinois.</p>
       <h2>Assessing Explanations of Graph Neural Networks</h2>
       <h3>UW-Madison &#x2022; PI: Mark Craven &#x2022; Summer 2024 &#x2022; <a href={gnnPoster} target="_blank">Poster</a> &#x2022; <a href="https://github.com/alyssaanastasi/srebp2-explanations" target="_blank">GitHub</a> </h3>
-      <p>In this project, I worked with a graph neural network (GNN) that integrated diverse biological data
-        to predict how gene perturbations affect gene expression, specifically in the phenotype of cholesterol homeostasis. 
-        To better understand the model’s decisions, I applied GNN explanation methods including GNNExplainer, PGExplainer, & Graph Mask
-        using PyTorch Geometric to evaluate the model's reliability. </p>
+      <p>I evaluated explanation methods for graph neural networks predicting gene expression changes 
+          under gene perturbations in cholesterol homeostasis. Using PyTorch Geometric, I applied 
+          GNNExplainer, PGExplainer, and GraphMask to assess model interpretability and reliability. </p>
       <h2>Impact of Environmental Drivers on Rotavirus Transmission in Bangladesh</h2>
       <h3>UIUC &#x2022; PI: Pamela Martinez &#x2022; Aug. 2023 - May 2024 &#x2022; <a href="https://docs.google.com/presentation/d/1ZZ4QvTnO0juwynNAXrg4tScfxbvUr5Cs/edit?usp=drive_link&ouid=112362901873534580997&rtpof=true&sd=true" target="_blank">Presentation</a></h3>
-      <p> The goal of this project is to understand how climate factors including flooding, temperature, & humidity can predict rotavirus
-        incidence across the different districts of Bangladesh. I conducted extensive data cleaning and preprocessing of multiple data 
-        sources including rotavirus case data, climate data, and flooding data in R.
-        I then applied generalized linear models to identify key climate factors influencing rotavirus incidence in Bangladesh.</p>
+      <p> I investigated how climate factors such as flooding, temperature, and humidity influence 
+          rotavirus incidence across districts in Bangladesh. This work involved data 
+          preprocessing of netCDF files and generalized linear modeling in R to identify key environmental drivers.</p>
     </div>
     );
 }
