@@ -14,10 +14,10 @@ function Home() {
       <h3><b>Currently:</b></h3>
       <ul>
         <li>Located in <span className="bullet-text">Madison, WI</span></li>
-        <li>Working on <span className="bullet-text">predicting zoonotic spillover events using machine learning</span></li>
+        <li>Working on <span className="bullet-text">viral spillover prediction in Mark Craven's lab</span></li>
         <li>Reading <a href="https://www.goodreads.com/book/show/28186015-weapons-of-math-destruction">Weapons of Math Destruction by Cathy O'Neil</a> </li>
         <li>Listening to <a href="https://open.spotify.com/track/4NczzeHBQPPDO0B9AAmB8d?si=99bfb5da6e1b4e2f">Assumptions by Sam Gellaitry</a> </li>
-        <li>Obsessed with <a href="https://strava.app.link/cR1DpRqHQTb">running & biking</a> </li>
+        <li>Obsessed with <span className="bullet-text">NYT crosswords </span></li>
       </ul>
       <br></br>
       <h2> Contact me @ <a href="mailto:aranastasi@wisc.edu">aranastasi@wisc.edu</a></h2>
