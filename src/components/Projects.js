@@ -19,7 +19,7 @@ function Projects() {
          vaccination coverages across age groups influence infection peaks and overall disease burden, this work provides insights 
          into targeted vaccine allocation in Illinois.</p>
       <h2>Assessing Explanations of Graph Neural Networks</h2>
-      <h3>UW-Madison &#x2022; PI: Mark Craven &#x2022; Summer 2024 &#x2022; <a href={gnnPoster} target="_blank">Poster</a></h3>
+      <h3>UW-Madison &#x2022; PI: Mark Craven &#x2022; Summer 2024 &#x2022; <a href={gnnPoster} target="_blank">Poster</a> &#x2022; <a href="https://github.com/alyssaanastasi/srebp2-explanations" target="_blank">GitHub</a> </h3>
       <p>In this project, I worked with a graph neural network (GNN) that integrated diverse biological data
         to predict how gene perturbations affect gene expression, specifically in the phenotype of cholesterol homeostasis. 
         To better understand the model’s decisions, I applied GNN explanation methods including GNNExplainer, PGExplainer, & Graph Mask
