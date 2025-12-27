@@ -3,10 +3,8 @@ import './Navbar.css';
 import linkedIn from './assets/linkedin.png';
 import gitHub from './assets/github.png';
 import goodReads from './assets/goodreads.png';
-import spotify from './assets/spotify.png';
 import resumeIcon from './assets/resume.png';
 import resume from './assets/resume.pdf';
-import emailIcon from './assets/email.png';
 
 function Navbar() {
   return (
