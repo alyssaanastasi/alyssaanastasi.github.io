@@ -9,27 +9,29 @@ import resume from './assets/resume.pdf';
 function Navbar() {
   return (
     <nav className="navbar">
-      <ul className="navbar-pages">
-      <li><Link to="/" className="navbar-page">Home</Link></li>
-      <li><Link to="/projects" className="navbar-page">Projects</Link></li>
-      {/* <li><Link to="/about" className="navbar-page">about</Link></li> */}
-      </ul>
-      <div className="navbar-links">
-        <a href={resume} target="_blank" rel="noopener noreferrer">
-          <img src={resumeIcon} alt="Resume Icon"/>
-        </a>
-        {/* <a href={"mailto:aranastasi@wisc.edu"} target="_blank" rel="noopener noreferrer">
-          <img src={emailIcon} alt="Resume Icon"/>
-        </a> */}
-        <a href="https://www.linkedin.com/in/alyssaranastasi" target="_blank" rel="noopener noreferrer">
-          <img src={linkedIn} alt="LinkedIn Logo"/>
-        </a>
-         <a href="https://github.com/alyssaanastasi" target="_blank" rel="noopener noreferrer">
-          <img src={gitHub} alt="GitHub Logo" />
-        </a>
-        <a href="https://www.goodreads.com/user/show/32751283-alyssa" target="_blank" rel="noopener noreferrer">
-          <img src={goodReads} alt="Goodreads Logo" />
-        </a>
+      <div className="navbar-inner">
+        <ul className="navbar-pages">
+          <li><Link to="/" className="navbar-page">Home</Link></li>
+          <li><Link to="/projects" className="navbar-page">Projects</Link></li>
+          {/* <li><Link to="/about" className="navbar-page">about</Link></li> */}
+        </ul>
+        <div className="navbar-links">
+          {/* <a href={resume} target="_blank" rel="noopener noreferrer">
+            <img src={resumeIcon} alt="Resume Icon"/>
+          </a> */}
+          {/* <a href={"mailto:aranastasi@wisc.edu"} target="_blank" rel="noopener noreferrer">
+            <img src={emailIcon} alt="Resume Icon"/>
+          </a> */}
+          <a href="https://www.linkedin.com/in/alyssaranastasi" target="_blank" rel="noopener noreferrer">
+            <img src={linkedIn} alt="LinkedIn Logo"/>
+          </a>
+           <a href="https://github.com/alyssaanastasi" target="_blank" rel="noopener noreferrer">
+            <img src={gitHub} alt="GitHub Logo" />
+          </a>
+          <a href="https://www.goodreads.com/user/show/32751283-alyssa" target="_blank" rel="noopener noreferrer">
+            <img src={goodReads} alt="Goodreads Logo" />
+          </a>
+        </div>
       </div>
     </nav>
   );
