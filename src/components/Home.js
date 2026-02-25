@@ -15,6 +15,7 @@ function Home() {
       <ul>
         <li><span className="bullet-text">Graduate Research Assistant in <a href="https://www.biostat.wisc.edu/~craven/research.html">Mark Craven's Lab</a></span></li>
         <li>Located in <span className="bullet-text">Madison, WI</span></li>
+        <li>Incoming <span className="bullet-text">Data Science Intern @ Gilead Sciences</span></li>
         <li>Reading <a href="https://www.goodreads.com/book/show/4981.Slaughterhouse_Five">Slaughterhouse-Five by Kurt Vonnegut</a> </li>
         <li>Listening to <a href="https://open.spotify.com/album/4oniyB3TRFhjglVSqVgy9e?si=pI70hfC8SAifL71M7Xpmyw">Wuthering Heights by charli xcx</a> </li>
         <li>Obsessed with <span className="bullet-text">Illinois basketball </span></li>
