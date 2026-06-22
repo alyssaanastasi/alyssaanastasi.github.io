@@ -13,12 +13,12 @@ function Home() {
       <h2>BS Statistics & Computer Science from UIUC</h2>
       <h3><b>Currently:</b></h3>
       <ul>
-        <li><span className="bullet-text">Graduate Research Assistant in <a href="https://www.biostat.wisc.edu/~craven/research.html">Mark Craven's Lab</a></span></li>
-        <li>Incoming <span className="bullet-text">Data Science Intern @ Gilead Sciences</span></li>
-        <li>Reading <a href="https://www.goodreads.com/book/show/4981.Slaughterhouse_Five">Slaughterhouse-Five by Kurt Vonnegut</a> </li>
-        <li>Listening to <a href="https://open.spotify.com/album/4oniyB3TRFhjglVSqVgy9e?si=pI70hfC8SAifL71M7Xpmyw">Wuthering Heights by charli xcx</a> </li>
-        <li>Obsessed with <span className="bullet-text">Illinois basketball </span></li>
-        <li>Located in <span className="bullet-text">Madison, WI</span></li>
+        <li><span className="bullet-text">Data Science Intern @ Gilead Sciences</span></li>
+        <li><span className="bullet-text">Graduate Research Assistant in Mark Craven's Lab</span></li>
+        <li>Reading <a href="https://www.goodreads.com/en/book/show/208931300-intermezzo">Intermezzo by Sally Rooney</a> </li>
+        <li>Listening to <a href="https://open.spotify.com/album/2PfGKHtqEX58bHtkQxJnWG?si=aMAs59PeTe-xBcKZjRe1Qw">Love Deluxe by Sade</a> </li>
+        <li>Obsessed with <a href="https://ebird.org/profile/ODk5NjAxNw">finding cool birds</a></li>
+        <li>Located in <span className="bullet-text">San Mateo, CA</span></li>
       </ul>
       <h3><b>Previously:</b></h3>
       <ul>
